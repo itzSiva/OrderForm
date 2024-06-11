@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Egg Farm</title>
+    <link rel="icon" href="chick.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="one">
+        <center>
+            <br>
+            <h1 style="font-family: sans-serif;">Max Egg Farm</h1>
+            <h3><i>Protein at Rs. 12!</i></h3>
+            <a href="index.html">Home</a>&nbsp;|&nbsp;<a href="#Contact">Contact</a>
+            <br><br>
+        </center>
+    </header>
+    <main class="two" id="Home">
+        <center>
+            <br><br><br>
+            <h3>Fill Your Order</h3>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="dd9a03b4-edbb-4737-af90-0819f1849a86">
+                <table cellspacing="5">
+                    <tr>
+                        <td><label for="name">Name</label></td>
+                        <td><input type="text" id="name" name="name" placeholder="Enter Your Name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="eggs">No of Eggs</label></td>
+                        <td><input type="number" id="eggs" name="eggs" placeholder="Enter Quantity of Eggs" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Address</label></td>
+                        <td><textarea id="address" name="address" rows="5" placeholder="Enter The Address" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pincode">Pincode</label></td>
+                        <td><input type="number" id="pincode" name="pincode" placeholder="Enter Pincode" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mobile">Mobile</label></td>
+                        <td><input type="tel" id="mobile" name="mobile" placeholder="Enter Mobile Number" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="reset" value="Reset"></td>
+                        <td><input type="submit" value="Submit"></td>
+                    </tr>
+                </table>
+            </form>
+            <br>
+            <p><b>All Orders Will Be Delivered Within 3 Working Days...</b></p>
+            <br><br><br><br><br><br>
+        </center>
+    </main>
+    <footer class="one" id="Contact">
+        <center>
+            <table cellpadding="5">
+                <tr>
+                    <td>Mobile:</td>
+                    <td>7603837106</td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>maxeggfarms@gmail.com</td>
+                </tr>
+                <tr>
+                    <td colspan="2">&copy;&nbsp;Max Egg Farm. All Rights Reserved.</td>
+                </tr>
+            </table>
+        </center>
+    </footer>
+</body>
+</html>
